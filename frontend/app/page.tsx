@@ -856,7 +856,16 @@ export default function Home() {
         <footer className="mt-8 flex flex-col items-center justify-between gap-2 border-t border-slate-200 pt-5 text-xs text-slate-500 sm:flex-row">
           <p>
             <span className="font-semibold text-slate-500">GPTase Detector</span>{" "}
-            · ModernBERT classifier via FastAPI
+            · Built by Vishal ·{" "}
+            <a
+              href="https://x.com/thevishal365"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Vishal on X"
+              className="font-medium text-slate-600 underline decoration-slate-300 underline-offset-2 transition-colors duration-150 hover:text-slate-900"
+            >
+              X
+            </a>
           </p>
           <p className="font-mono">prediction + probabilities · no data stored</p>
         </footer>
