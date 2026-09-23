@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Hides the bottom-left Next.js devtools indicator during development.
+  devIndicators: false,
   rewrites: async () => {
     return {
       beforeFiles: [
