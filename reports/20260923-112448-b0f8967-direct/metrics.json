@@ -1,0 +1,111 @@
+{
+  "overall_primary": {
+    "n": 80,
+    "tp": 40,
+    "fp": 10,
+    "tn": 24,
+    "fn": 6,
+    "accuracy": 0.8,
+    "precision_ai": 0.8,
+    "recall_ai": 0.8696,
+    "f1_ai": 0.8333
+  },
+  "by_category_primary": {
+    "ai": {
+      "n": 18,
+      "tp": 18,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision_ai": 1.0,
+      "recall_ai": 1.0,
+      "f1_ai": 1.0
+    },
+    "human": {
+      "n": 18,
+      "tp": 0,
+      "fp": 2,
+      "tn": 16,
+      "fn": 0,
+      "accuracy": 0.8889,
+      "precision_ai": 0.0,
+      "recall_ai": 0.0,
+      "f1_ai": 0.0
+    },
+    "mixed": {
+      "n": 16,
+      "tp": 6,
+      "fp": 4,
+      "tn": 4,
+      "fn": 2,
+      "accuracy": 0.625,
+      "precision_ai": 0.6,
+      "recall_ai": 0.75,
+      "f1_ai": 0.6667
+    },
+    "paraphrased": {
+      "n": 12,
+      "tp": 10,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "accuracy": 0.8333,
+      "precision_ai": 1.0,
+      "recall_ai": 0.8333,
+      "f1_ai": 0.9091
+    },
+    "short": {
+      "n": 16,
+      "tp": 6,
+      "fp": 4,
+      "tn": 4,
+      "fn": 2,
+      "accuracy": 0.625,
+      "precision_ai": 0.6,
+      "recall_ai": 0.75,
+      "f1_ai": 0.6667
+    }
+  },
+  "by_length_incl_derived": {
+    "short (<30w)": {
+      "n": 75,
+      "tp": 40,
+      "fp": 23,
+      "tn": 7,
+      "fn": 5,
+      "accuracy": 0.6267,
+      "precision_ai": 0.6349,
+      "recall_ai": 0.8889,
+      "f1_ai": 0.7407
+    },
+    "medium (30-60w)": {
+      "n": 51,
+      "tp": 21,
+      "fp": 9,
+      "tn": 18,
+      "fn": 3,
+      "accuracy": 0.7647,
+      "precision_ai": 0.7,
+      "recall_ai": 0.875,
+      "f1_ai": 0.7778
+    },
+    "long (>60w)": {
+      "n": 22,
+      "tp": 16,
+      "fp": 1,
+      "tn": 3,
+      "fn": 2,
+      "accuracy": 0.8636,
+      "precision_ai": 0.9412,
+      "recall_ai": 0.8889,
+      "f1_ai": 0.9143
+    }
+  },
+  "latency_ms": {
+    "n": 148,
+    "median": 846.3,
+    "p90": 1441.7,
+    "max": 2345.2
+  }
+}

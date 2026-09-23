@@ -1,0 +1,106 @@
+{
+  "overall_core": {
+    "n": 36,
+    "tp": 18,
+    "fp": 2,
+    "tn": 16,
+    "fn": 0,
+    "accuracy": 0.9444,
+    "precision_ai": 0.9,
+    "recall_ai": 1.0,
+    "f1_ai": 0.9474
+  },
+  "core_by_class": {
+    "human": {
+      "n": 18,
+      "tp": 0,
+      "fp": 2,
+      "tn": 16,
+      "fn": 0,
+      "accuracy": 0.8889
+    },
+    "ai": {
+      "n": 18,
+      "tp": 18,
+      "fp": 0,
+      "tn": 0,
+      "fn": 0,
+      "accuracy": 1.0
+    }
+  },
+  "robustness": {
+    "short": {
+      "n": 16,
+      "tp": 6,
+      "fp": 4,
+      "tn": 4,
+      "fn": 2,
+      "accuracy": 0.625,
+      "precision_ai": 0.6,
+      "recall_ai": 0.75,
+      "f1_ai": 0.6667
+    },
+    "paraphrased": {
+      "n": 12,
+      "tp": 10,
+      "fp": 0,
+      "tn": 0,
+      "fn": 2,
+      "accuracy": 0.8333,
+      "detection_rate_paraphrased_ai": 0.8333,
+      "precision_ai": null,
+      "recall_ai": 0.8333,
+      "f1_ai": null
+    },
+    "mixed": {
+      "n": 16,
+      "tp": 6,
+      "fp": 4,
+      "tn": 4,
+      "fn": 2,
+      "accuracy": 0.625,
+      "note": "majority-class labels; not authorship ground truth"
+    }
+  },
+  "by_length_core_incl_derived": {
+    "short (<30w)": {
+      "n": 32,
+      "tp": 18,
+      "fp": 12,
+      "tn": 2,
+      "fn": 0,
+      "accuracy": 0.625,
+      "precision_ai": 0.6,
+      "recall_ai": 1.0,
+      "f1_ai": 0.75
+    },
+    "medium (30-60w)": {
+      "n": 27,
+      "tp": 7,
+      "fp": 5,
+      "tn": 15,
+      "fn": 0,
+      "accuracy": 0.8148,
+      "precision_ai": 0.5833,
+      "recall_ai": 1.0,
+      "f1_ai": 0.7368
+    },
+    "long (>60w)": {
+      "n": 13,
+      "tp": 11,
+      "fp": 0,
+      "tn": 2,
+      "fn": 0,
+      "accuracy": 1.0,
+      "precision_ai": 1.0,
+      "recall_ai": 1.0,
+      "f1_ai": 1.0
+    }
+  },
+  "latency_ms": {
+    "n": 148,
+    "median": 781.3,
+    "p90": 1515.3,
+    "max": 2293.2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-09-23T11:26:50+00:00",
+  "mode": "api",
+  "backend": "api",
+  "model": "rasbt/ai-text-detector-modernbert",
+  "torch_version": "2.14.0+cpu",
+  "transformers_version": "5.17.0",
+  "dataset": "eval/dataset.v1.jsonl",
+  "dataset_sha256": "b0f8967b0dbc008f6ad697475c305a2c4a5c4314d5cee15b1fb90e5c70139e43",
+  "n_primary": 80,
+  "n_derived": 0,
+  "positive_class": "AI"
+}
