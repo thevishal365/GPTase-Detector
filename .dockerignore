@@ -1,0 +1,21 @@
+# Git history and local environments
+.git/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Frontend build artifacts (backend image never needs these)
+frontend/
+
+# Local-only files
+.env
+.env.*
+*.log
+
+# Heavy non-runtime project data
+eval/
+reports/
+docs/
+scripts/
